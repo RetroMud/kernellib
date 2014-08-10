@@ -1,3 +1,6 @@
+# ifndef USER_HEADER
+# define USER_HEADER
+
 # define USERD			"/kernel/sys/userd"
 # define LIB_CONN		("/kernel" + INHERITABLE_SUBDIR + "connection")
 # define LIB_USER		("/kernel" + INHERITABLE_SUBDIR + "user")
@@ -20,3 +23,5 @@
 # define MODE_BLOCK		6	/* block input */
 
 # define DEFAULT_TIMEOUT	120	/* two minutes */
+
+# endif

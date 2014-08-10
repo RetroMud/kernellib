@@ -1,3 +1,6 @@
+# ifndef RSRC_HEADER
+# define RSRC_HEADER
+
 # define RSRCD		"/kernel/sys/rsrcd"
 # define RSRCOBJ	("/kernel" + CLONABLE_SUBDIR + "rsrc")
 # define API_RSRC	("/kernel" + INHERITABLE_SUBDIR + "api/rsrc")
@@ -22,3 +25,5 @@
 # define LIM_MAX_STACK	0	/* max stack */
 # define LIM_MAX_TICKS	1	/* max ticks */
 # define LIM_MAX_TIME	2	/* tick usage decay time */
+
+# endif
